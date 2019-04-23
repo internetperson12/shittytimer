@@ -15,12 +15,6 @@ class timer:
 		self.running = False
 		self.endtime = round(time.time() * 1000.00) - self.stx
 
-	"""def convert(self):
-		if not self.endtime:
-			return None
-		self.seconds = self.endtime / 1000
-		return self.seconds"""
-
 	def gettime(self): # Grabs time of timer. | Returns seconds of timer
 		if not self.stx:
 			return None
