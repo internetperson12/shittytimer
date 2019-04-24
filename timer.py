@@ -37,7 +37,7 @@ class timer:
 
 		time.sleep(60)
 
-		print( Clock.convert(Clock.gettime()) ) // 60.0000000"""
+		print( Clock.convert(Clock.gettime()) ) // 1.0000000"""
 		if not time > 0:
 			return None
 		minutes = time / 60
