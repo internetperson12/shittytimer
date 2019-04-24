@@ -32,7 +32,7 @@ class timer:
 		EX:
 
 		Clock = timer()
-
+		Clock.start()
 		print( Clock.convert(Clock.gettime()) ) // 0.00000000
 
 		time.sleep(60)
